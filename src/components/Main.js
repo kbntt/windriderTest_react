@@ -13,7 +13,7 @@ const sections = [
   { title: 'Culture', url: '/profiles/gildong' },
   { title: 'Business', url: '/profiles/void' },
   { title: 'Politics', url: '/articles' },
-  { title: 'Opinion', url: '#' },
+  { title: 'FileUpload', url: '/fileUpload' },
   { title: 'Science', url: '#' },
   { title: 'Health', url: '#' },
   { title: 'Style', url: '#' },

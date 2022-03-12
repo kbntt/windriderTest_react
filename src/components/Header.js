@@ -12,6 +12,7 @@ import Home from './../pages/Home';
 import Profile from './../pages/Profile';
 import Project from './../pages/Project/Main';
 import Blog from './../pages/Blog';
+import FileUpload from './../pages/FileUpload';
 
 function Header(props) {
   const { sections, title } = props;
@@ -67,6 +68,7 @@ function Header(props) {
         <Route exact path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
         <Route path="/profiles/:username" element={<Profile />} />
+        <Route path="/fileUpload" element={<FileUpload />} />
       </Routes>
     </React.Fragment>
   );
